@@ -97,10 +97,10 @@ resources:
   # lines, adjust them as necessary, and remove the curly braces after 'resources:'.
   limits: {}
   #   cpu: 100m
-     memory: 3500Mi
+    memory: 3500Mi
   requests: {}
   #   cpu: 100m
-     memory: 1500Mi
+    memory: 1500Mi
 ## Affinity for pod assignment
 ## ref: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#affinity-and-anti-affinity
 ##
