@@ -39,7 +39,7 @@ fullnameOverride:
 port: 8983
 
 # Settings for solr java memory
-javaMem: "-Xms2g -Xmx3g"
+javaMem: "-Xms1g -Xmx3g"
 
 ## Specify '.sh' scripts the initial scripts here to be executed before starting Solr
 ## You must use this with extraVolumeMounts and extraVolumes.
@@ -97,10 +97,10 @@ resources:
   # lines, adjust them as necessary, and remove the curly braces after 'resources:'.
   limits: {}
   #   cpu: 100m
-  #   memory: 128Mi
+     memory: 3500Mi
   requests: {}
   #   cpu: 100m
-  #   memory: 128Mi
+     memory: 1500Mi
 ## Affinity for pod assignment
 ## ref: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#affinity-and-anti-affinity
 ##
